@@ -1,0 +1,85 @@
+/* Navigation styles */
+/* Navigation styles */
+/* .logo {
+    background: white;
+    height: 200px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: left; */
+  /* } */
+  
+  *{ 
+    margin: 0; 
+    padding: 0; 
+  } 
+
+  .navigation {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between; 
+    color: white;
+  }
+  
+  .heroimage { 
+    display: flex;
+    margin: 40px; 
+    justify-content: center;  
+    align-items: center;
+    width: 100%; 
+  }  
+
+  .heroimage div { 
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+  }
+
+  .UXpeople { 
+    display: flex; 
+    margin: 40px;
+  }
+
+  .UXTitle  {
+    margin: 40px;
+
+  } 
+
+  .UXTitle p { 
+       width:50%; 
+  } 
+
+  .uxskills h1 { 
+    display: flex;
+    justify-content: center;
+  }
+  ul { 
+    list-style: none;  
+    display: flex;
+  } 
+
+  ul li { 
+    display: flex; 
+    margin: 20px;
+  }
+
+h2 {
+    font-size: 32px;
+    font-weight: 100;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 32px;
+    color: rgb(7, 7, 7);
+    font-weight: 100;
+    font-size: 22px;
+  }
+/* Column styles */
+
+/* Footer Styles */
