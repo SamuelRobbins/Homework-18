@@ -19,11 +19,15 @@
     padding: 10px;
     justify-content: space-between; 
     color: white;
+    border-color: black;
+    margin-right: 0px;
+
   }
   
   .heroimage { 
     display: flex;
     margin: 40px; 
+    margin-right: 0px;
     justify-content: center;  
     align-items: center;
     width: 100%; 
@@ -37,12 +41,13 @@
 
   .UXpeople { 
     display: flex; 
-    margin: 40px;
+    margin: 40px; 
+    margin-right: 0px;
   }
 
   .UXTitle  {
     margin: 40px;
-
+     margin-right: 0px;
   } 
 
   .UXTitle p { 
@@ -52,7 +57,55 @@
   .uxskills h1 { 
     display: flex;
     justify-content: center;
+    border: black;
+    border-color: black;
+    border-width: 3px;
   }
+
+  .UXproj {
+  justify-content: center;
+  margin-right: 0px;
+  }
+
+  #uxskills
+
+  #UXproj
+  
+  .UXproj{
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects{
+    display: flex;
+    justify-content: center;
+  } 
+
+  .projects2 {
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin: 25px;
+    margin-right: 0px;
+
+  }
+
+  .proj{
+    display: flex;
+    width: 100%;
+    border:5px solid black;
+  } 
+
+  .proj img{
+    width: 400px;
+    height: 400px;
+  }
+
+  .proj h2 { 
+    width:fit-content; 
+    display: flex;
+  }
+
   ul { 
     list-style: none;  
     display: flex;
@@ -61,6 +114,8 @@
   ul li { 
     display: flex; 
     margin: 20px;
+    margin-right: 0px;
+
   }
 
 h2 {
@@ -79,6 +134,16 @@ h2 {
     color: rgb(7, 7, 7);
     font-weight: 100;
     font-size: 22px;
+  } 
+
+  @media Only screen and (max-width: 500px) {
+     .projects2{ 
+       flex-direction: column;
+     } 
+
+     h1 { 
+       color: red;
+     }
   }
 /* Column styles */
 
