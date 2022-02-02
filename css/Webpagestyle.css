@@ -23,6 +23,11 @@
     margin-right: 0px;
 
   }
+
+  nav ul li:hover {
+    font-weight: bold;
+
+  }
   
   .heroimage { 
     display: flex;
