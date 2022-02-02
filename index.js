@@ -1,11 +1,5 @@
-function fade() {
-$('.preloader').fadeOut("slow");
-}
-setTimeout(fade, 3000);
-
-
-$(".toggle").click(function(){
-  $(this).find(".toggleContainer").toggleClass("active");
-  $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
-});
- 
+ $(document).ready(function(){
+    $("button").click(function(){
+      $("div").animate({left: '250px'});
+    });
+  });

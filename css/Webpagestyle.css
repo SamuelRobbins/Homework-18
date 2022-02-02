@@ -135,7 +135,7 @@ h2 {
     font-weight: 100;
     font-size: 22px;
   } 
-
+  
   @media Only screen and (max-width: 500px) {
      .projects2{ 
        flex-direction: column;
